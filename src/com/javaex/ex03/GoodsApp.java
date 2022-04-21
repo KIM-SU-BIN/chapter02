@@ -6,7 +6,7 @@
 4. 매소드 - 겟터세터
 5. 매소드 - 일반
 ﻿*/
-//필드는 캡슐화 참고만 할 것(있지만 접근x) 읽기만 해야하면 get 읽기 + 쓰기 = set 
+//필드는 캡슐화 참고만 할 것(있지만 접근x) 읽기만 해야하면 get 읽기 set 읽기 + 쓰기 
  package com.javaex.ex03;
 
 public class GoodsApp {
