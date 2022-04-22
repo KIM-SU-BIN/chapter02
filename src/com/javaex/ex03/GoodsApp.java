@@ -15,14 +15,14 @@ public class GoodsApp {
 		
 		Goods camera = new Goods();
 		camera.setName("니콘");  //메모리에 올라온  public void setName 사용
-		camera.setPrice(400000);
+		camera.setPrice(400000); 
 		
 		Goods computer= new Goods();
-		computer.setName("LG그램");  //메모리에 올라온  public void setName 사용
+		computer.setName("LG그램");  
 		computer.setPrice(900000);
 		
 		Goods cup= new Goods();
-		cup.setName("머그컵");  //메모리에 올라온  public void setName 사용
+		cup.setName("머그컵");  
 		cup.setPrice(2000);
 
 		camera.showInfo();
