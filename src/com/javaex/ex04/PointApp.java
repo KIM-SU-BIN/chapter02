@@ -12,8 +12,11 @@ public class PointApp {
 		p2.setX(10);
 		p2.setY(23);
 		
+		//다른 생성자 작성 후 기본(=디폴트)생성자 안쓰면 위에 두 개는 안돌아감.
+		
 		Point p3 = new Point(10, 20);
 		
+		//p4는 x값 생성자를 작성
 		Point p4 = new Point(100);
 		p4.setY(200);
 		

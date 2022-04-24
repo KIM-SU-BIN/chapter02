@@ -9,6 +9,7 @@ public class Point {
 	// 생성자
 	public Point() {
 		//아무것도 없어보이지만 메모리에 올리는 일
+		// 디폴트 생성자를 쓴 이유는 하단에 다른 생성자를 썼기 때문!!
 	}
 	public Point(int x) {
 		//아무것도 없어보이지만 메모리에 올리는 일
@@ -25,10 +26,10 @@ public class Point {
 	//set뒤에 오는 이름의 첫글자 항상 대문자
 	//int x, x=x;처럼 이름이 같으면 앞에 this.x=x;로 기입할 것
 	public void setX(int num) { 	
-		x = num;
+		this.x = num;
 	}
 	public void setY(int nu) {
-		y = nu;
+		this.y = nu;
 	}
 	public int getX() { // get 읽기
 		return x; // return문 : 실행 중인 메서드를 종료하고 호출한 곳으로 되돌아감
