@@ -8,6 +8,8 @@ public class TV {
 		private boolean power;
 
 		// 생성자
+		public TV() {
+			}
 		public TV(int channel, int volume, boolean power) {
 			this.channel = channel;
 			this.volume = volume;
