@@ -63,7 +63,7 @@ public class Rectangle { //1 => 필드 생성자 메소드 작성이 우선!
 				+ height + "]";
 	}
 	public void draw () {  //3
-		System.out.println("[면색" + fillColor + "선색" + lineColor );
+		System.out.println("[면색]" + fillColor + "선색" + lineColor );
 		
 	}
 }
